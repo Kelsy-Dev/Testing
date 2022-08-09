@@ -1,0 +1,95 @@
+body {
+	background-color: #353535;
+	background-image: url(./images/dots.png);
+}
+
+content {
+	width: auto;
+	margin-left: 50px;
+	height: 1300px;
+	position: absolute;
+	background-color: whitesmoke;
+	border-radius: 25px;
+}
+
+#logo {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+h1 {
+	margin-left: 85px;
+	width: 270px;
+}
+
+#p1 a {
+	outline: 1px solid darkred;
+	float: right;
+	position: absolute;
+	top: 15px;
+	right: 30px;
+	font-size: 13.5px;
+
+	text-decoration: none;
+	border-radius: 25px;
+	color: black;
+	transform: skew(-20deg, 0deg);
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+
+#p1 a:hover {
+	text-decoration: none;
+	color: whitesmoke;
+	background-color: #353535;
+	background-image: url(./images/dots.png);
+}
+
+
+nav ul li {
+	display: block;
+}
+nav ul li a {
+	text-decoration: none;
+	color: black;
+
+	transition-property: all;
+	transition-duration: .4s;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	background-color: #5C9729;
+	color: whitesmoke;
+	padding: 7px 10px 7px 10px;
+}
+
+article {
+	margin-left: 150px;
+	position: absolute;
+	top: 320px;
+	box-shadow: -2px 1px 5px #353535;
+}
+article h1, p {
+	text-align: left;
+	margin-left: 10px;
+}
+
+article p {
+	font-size: 15px;
+}
+
+article #left {
+	float: left;
+	width: 50%;
+}
+article #right {
+	float: right;
+	width: 50%;
+}
+
+
+
+
+
+
+
